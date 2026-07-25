@@ -1,0 +1,39 @@
+.Pokemon {
+  border: 3px solid #232323;
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+}
+
+.PokemonImage {
+  background-color: #616161;
+  width: 200px;
+}
+
+.PokemonName {
+  background-color: #232323;
+  margin: 0;
+  padding: 20px 0px 20px 0px;
+  text-align: center;
+}
+
+.PokeTypeList {
+  background-color: #232323;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.PokeTypeItem {
+  background-color: gray;
+  margin: 0px 0px 0px 5px;
+  padding: 5px;
+  border-radius: 10px;
+  text-align: center;
+}
+.PokemonEvolution {
+  background-color: #232323;
+  margin: 0;
+  padding: 20px 0px 20px 0px;
+  text-align: center;
+}

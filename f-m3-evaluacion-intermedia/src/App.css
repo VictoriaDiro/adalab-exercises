@@ -1,0 +1,12 @@
+body {
+  background-image: linear-gradient(rgba(255, 0, 0, 0.781),  rgba(255, 123, 0, 0.815), rgba(255, 255, 0, 0.692));
+}
+
+.Title {
+  margin: 10px;
+  text-align: center;
+  font-family: 'Sunflower', sans-serif;
+}
+
+
+
