@@ -1,0 +1,168 @@
+// Block Looking
+
+.main__block1 {
+    padding: $padding-mobile;
+    padding-bottom: 45px;
+    @media all and (min-width: 768px) {
+        padding: 0 39px 0 39px;
+    }
+    @media all and (min-width: 1200px) {
+        padding: 60px 275px 60px 275px;
+    }
+}
+
+.main__block1-title {
+    color: $color-light-blue;
+    font-family: $font-family-secondary;
+    font-size: $font-size-xs;
+    font-weight: normal;
+}
+
+.main__block1-subtitle {
+    margin: 0;
+    font-family: $font-family-primary;
+    font-size: $font-size-xl;
+}
+
+.main__block1-text {
+    color: #4a4a4a;
+    font-family: $font-family-secondary;
+    font-size: $font-size-m;
+    line-height: 1.67;
+    @media all and (min-width: 768px) {
+        font-size: $font-size-l;
+    }
+}
+
+// Button Go
+
+.main__button-go {
+    width: 75px;
+    height: 45px;
+    border-radius: 70px;
+    border: 2px solid $color-orange;
+    background-color: $color-white;
+    color: $color-orange;
+    font-size: $font-size-l;
+    text-transform: capitalize;
+    transition: width ease 0.5s, height ease 0.5s;
+    &:hover {
+        width: 85px;
+        background-color: $color-orange;
+        color: $color-white;
+      }
+}
+
+// Block Reasons
+
+.main__block2 {
+    padding-top: 30px;
+    background-color: $color-litle-blue;
+}
+
+.main__block2-title1 {
+    display: block;
+    margin: 0;
+    padding-top: 30px;
+    background-color: $color-litle-blue;
+    height: 30px;
+    font-family: $font-family-primary;
+    font-size: $font-size-xl;
+    text-align: center;
+}
+
+.main_block2-list {
+    margin: 0;
+    padding: 0 70px 45px 70px;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas:
+        "block__item1"
+        "block__item2"
+        "block__item3";
+    grid-gap: 45px;
+    @media all and (min-width: 768px) {
+        padding: 0 40px 60px 40px;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas:
+        "block__item1 block__item2 block__item3";
+    }
+    @media all and (min-width: 1200px) {
+        padding: 0 85px 60px 85px;
+    }
+}
+
+.subtitle {
+    margin: 0;
+    font-family: $font-family-primary;
+    font-size: $font-size-m;
+    line-height: 1.67;
+    text-align: center;
+}
+
+.text {
+    margin: 0;
+    font-family: $font-family-secondary;
+    font-size: $font-size-m;
+    line-height: 1.67;
+    text-align: center;
+}
+
+.block__item1 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    grid-area: block__item1;
+    @media all and (min-width: 768px) {
+        grid-column: span 1;
+    }
+}
+
+.block__item2 {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    grid-area: block__item2;
+    @media all and (min-width: 768px) {
+        grid-column: span 1;
+    }
+}
+
+.block__item3 {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+    grid-area: block__item3;
+    @media all and (min-width: 768px) {
+        grid-column: span 1;
+    }
+}
+
+// Button Reasons
+
+.button__reasons-container {
+    background-color: $color-litle-blue;
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main__button-reasons {
+    width: 190px;
+    height: 45px;
+    margin: 0;
+    padding: 0;
+    border-radius: 70px;
+    border: 0;
+    background-color: $color-orange;
+    color: $color-white;
+    font-family: $font-family-secondary;
+    font-size: $font-size-m;
+    transition: width ease 0.5s, height ease 0.5s;
+    &:hover {
+        width: 210px;
+        border: 2px solid $color-orange;
+        background-color: $color-white;
+        color: $color-orange;
+      }
+}

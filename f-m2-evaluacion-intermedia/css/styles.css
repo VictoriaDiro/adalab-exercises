@@ -1,0 +1,47 @@
+html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+}
+
+.container__test {
+    position: relative;
+}
+
+.acc {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 0;
+    color: red;
+    font-size: 3rem;
+}
+
+.input {
+    margin: 10px 0;
+}
+
+.input__container {
+    padding: 0 30%;
+}
+
+.input__number {
+    padding: 5px;
+}
+
+.check {
+    font-size: 1rem;
+    padding: 5px;
+    margin-top: 50px;
+    color: blue;
+    border: 1px solid blue;
+}

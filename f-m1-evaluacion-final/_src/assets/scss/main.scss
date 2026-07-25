@@ -1,0 +1,13 @@
+@import 'core/settings';
+@import 'core/variables';
+
+
+body {
+	margin: 0;
+	width: 100%;
+	height: 100vh;
+}
+
+@import 'layout/header';
+@import 'layout/main';
+@import 'layout/footer';
